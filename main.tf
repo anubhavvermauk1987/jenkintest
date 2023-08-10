@@ -3,9 +3,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "foo" {
-  ami           = "ami-04336b6cac4075c5a"
+  ami           = "ami-0f5ee92e2d63afc18"
   instance_type = "t3a.large"
   tags = {
-      Name = "TF-Instance-123"
+      Name = "TF-Instance-testing"
   }
 }
