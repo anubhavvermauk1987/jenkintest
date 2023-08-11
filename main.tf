@@ -7,6 +7,6 @@ resource "aws_instance" "foo1" {
   instance_type = "t2.micro"
 #instance_type = "t3.large"
   tags = {
-      Name = "F-Instance-10-Aug-2024"
+      Name = "WOW-instance"
   }
 }
